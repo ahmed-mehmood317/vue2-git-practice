@@ -1,5 +1,5 @@
 <template>
-    <div class="project">my first project</div>
+    <div class="project">My First Vue 2 Project</div>
 </template>
 <script>
 export default{
