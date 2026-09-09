@@ -4,9 +4,23 @@
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link>
     </nav>
-    <router-view/>
+
+    <MyProject />
+
+    <router-view />
   </div>
 </template>
+
+<script>
+import MyProject from './components/myproject.vue';
+
+export default {
+  name: 'App',
+  components: {
+    MyProject
+  }
+}
+</script>
 
 <style>
 #app {
